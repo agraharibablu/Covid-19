@@ -40,7 +40,7 @@ handleCountryChange = async (country) => {
             <Cards data={data} />
             <CountryPicker handleCountryChange={this.handleCountryChange} />
             <Chart data={data} country={country} />
-            <h3 className="bablu">Developed By: Bablu Agrahari</b></h3>
+            <h3 className="bablu">Developed By: Bablu Agrahari</h3>
         </div>
         
         );

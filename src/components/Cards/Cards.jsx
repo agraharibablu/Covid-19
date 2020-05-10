@@ -15,10 +15,10 @@ if(!confirmed)
 
     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)} >
     <CardContent>
-        <Typography color='textSecondary' gutterBottom>Infected</Typography>
+        <Typography color='textSecondary' gutterBottom>Total Infected</Typography>
     <Typography variant="h5"> <CountUp start={0} end={confirmed.value} duration={2.5} separator="," /> </Typography>
     <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
-        <Typography variant="body2">Number of Active Cases of Covid-19</Typography>
+        <Typography variant="body2">Number of Total Cases of Covid-19</Typography>
     </CardContent>
     </Grid>
 
